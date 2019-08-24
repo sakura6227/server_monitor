@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configure>
+        <interval value = "1.0" />
+        <!--<log filepath="./Monitor_log.log"/>-->
+        <email host = "example@example.com" user = "example@example.com" password ="" sender="" >
+                <receivers>
+                        <receiver address = "example@example.com" />
+                </receivers>
+        </email>
+        <process>
+                <proc name = "python" />
+                <proc name = "zsh" />
+        </process>
+        <limit>
+                <net>
+                        <net_upload_upper_limit value = "0.0" />
+                        <net_upload_lower_limit value = "-1.0" />
+                        <net_down_upper_limit value = "0.0" />
+                        <net_down_lower_limit value = "-1.0" />
+                        <net_wait_time  value = "2.0" />
+                        <net_interface value = "lo0" />
+                </net>
+                <mem>
+                        <mem_upper_limit value = "80.0" />
+                        <mem_lower_limit value = "0.0" />
+                        <mem_wait_time value = "10.0" />
+                </mem>
+                <disk>
+                        <disk_alert_limit value = "85.0" />
+                </disk>
+                <cpu>
+                        <cpu_upper_limit value = "80.0" />
+                        <cpu_lower_limit value = "0.0" />
+                        <cpu_wait_time value = "10.0" />
+                </cpu>
+        </limit>
+</configure>
