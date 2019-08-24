@@ -34,3 +34,7 @@ The development environment of the system includes the software environment and 
     2. Central server configuration: It is recommended to use Intel dual-core processor (2.0GHz), memory 2GB, hard disk 150GB or more.
     
     3. Server configuration: It is recommended to use Intel processor (1.5GHz) or above, memory 2GB, hard disk 100GB or more.
+    
+    
+    
+  3.Front End Design
