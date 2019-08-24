@@ -14,6 +14,7 @@ This paper focuses on the research and implementation of server application perf
 The development environment of the system includes the software environment and the hardware environment. It is an environment necessary for development systems.
 
   Software environment
+  
     1. The client operating system is Microsoft Windows 7 and above.
     
     2. The operating system on the server and the central server is Windows Server 2000 and above. The Windows system is used because     the system calls the Sigar tool to get the performance data of the server.
@@ -27,6 +28,7 @@ The development environment of the system includes the software environment and 
     6. System operating environment: JDK1.6.
     
   Hardware environment
+  
     1. Client configuration: It is recommended to use Intel processor (1.5GHz) or above, memory 2GB, hard disk 100GB or more.
     
     2. Central server configuration: It is recommended to use Intel dual-core processor (2.0GHz), memory 2GB, hard disk 150GB or more.
