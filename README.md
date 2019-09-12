@@ -39,3 +39,5 @@ The development environment of the system includes the software environment and 
     
 3.Front End Design
 The client program is a website that is mainly implemented using JSP. Provide the administrator with an operation interface and display the running status of the server in the browser. First, design the website interface. The website page is mainly written in HTML and CSS.
+![image](https://user-images.githubusercontent.com/44720386/64757844-161cd400-d4e8-11e9-8f14-b9e543eee04b.png)
+
