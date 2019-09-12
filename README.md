@@ -21,7 +21,7 @@ The development environment of the system includes the software environment and 
     
     3. The database operating system is MySQL5.1.
     
-    4. System development language: JAVA programming language.
+    4. System development language: Python programming language.
     
     5. System development tools: MyEclipse8.5 and MySQL-Front tools.
     
